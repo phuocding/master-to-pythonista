@@ -1,4 +1,4 @@
-# ythonista for beginner
+# `Pythonista for beginner`
 A list of awesome beginners-friendly projects.
 
 ### Contents:
