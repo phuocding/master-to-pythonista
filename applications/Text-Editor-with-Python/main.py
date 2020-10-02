@@ -20,7 +20,7 @@ class Frontend():
         # Setting icon of master window
         self.window.iconphoto(False, p1)
 
-        self.window.title("Untitled - Quickpad")
+        self.window.title("Untitled - Text-Editor")
 
         self.window.geometry("800x680")  # 1920x1080
 
@@ -69,7 +69,7 @@ class Frontend():
             self.textbox1.delete(1.0, END)
             self.textbox1.insert(1.0, content)
             self.activefile = 'active'
-        self.window.title(basename(self.filename) + "- Quickpad")
+        self.window.title(basename(self.filename) + "- Text-Editor")
         self.filepath = self.filename
 
     def savefile(self):
@@ -82,12 +82,12 @@ class Frontend():
             self.savefiledialog = asksaveasfilename()
             with open(self.savefiledialog, 'a') as _savefile:
                 _savefile.write(self.textbox1.get(1.0, END))
-                self.window.title(basename(self.savefiledialog) + "- Quickpad")
+                self.window.title(basename(self.savefiledialog) + "- Text-Editor")
 
     def saveasfile(self):
 
         self.saveasfilename = asksaveasfilename()
-        self.savefilename = basename(self.saveasfilename) + "- Quickpad"
+        self.savefilename = basename(self.saveasfilename) + "- Text-Editor"
         print(self.saveasfilename)
         with open(self.saveasfilename, 'a') as savefile:
             savefile.write(self.textbox1.get(1.0, END))
@@ -101,7 +101,7 @@ class Frontend():
         if(self.ans):
             self.saveasfile()
         else:
-            self.window.title("Untitled - Quickpad")
+            self.window.title("Untitled - Text-Editor")
             self.textbox1.delete(1.0, END)
 
     
