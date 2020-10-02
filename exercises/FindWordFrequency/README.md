@@ -1,6 +1,6 @@
 # Find Word Frequency
 
-This program is actually calculates the frequency of the length of words present in input text
+This program is actually calculating the frequency of the length of words present in input text
 
 This can be used as single program or as module
 
@@ -12,6 +12,6 @@ and the output will be a dictionary, where the keys of the dictionary will repre
 
 For above command the output will be like {8: 1, 2: 2, 4: 1}
 
-This function will remove below mentioed punctuations from text,
+This function will remove the below mentioned punctuations from text,
 [".", ",", "'", "!", "%", "$", "@", "#", "^", "&", "*", "(", ")", "-", "_", "+", "=", "{", "}", "[", "]", "|", ";", ":", "<", ">", "?"]
 
