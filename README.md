@@ -34,17 +34,15 @@ We encourage you to contribute to this Repository! Please check out the
 [Contributing to Pythonista for Beginner guide](CONTRIBUTING.md) for guidelines about how to proceed.
 
 ## Adding Your Code:
-Here are the steps:
-1: Develop something in the programming language of your choice for any platform in less than #100LinesOfCode
-2: Fork this repository
+**Here are the steps:**
+<br>
+1: Develop something in the programming language of your choice for any platform in *less than 100LinesOfCode* <br>
+2: Fork this repository <br>
 3: Clone this repository 
-```
-$ git clone "https://www.github.com/{Username}/pythonista-for-beginner.git"
-```
-where username is your GitHub account username.
+``` $ git clone "https://www.github.com/{Username}/pythonista-for-beginner.git" ```
+> Where username is your GitHub account username.
 
-4. Create a branch where you can do your local work.
-Never work on **master** branch as we do not allow master commits except by admins.
+4. Create a branch where you can do your local work. Never work on **master** branch as we do not allow master commits except by admins.
 ```
 $ git branch {branchname}
 $ git checkout branchname
@@ -65,32 +63,8 @@ $ git commit -m "Name| files| Changes"
 $ git push -u origin branchname
 ```
 
-##### Synchronize forked repository with Upstream repository
-
-1. Create upstream as our repository
-```
-$ git remote add upstream "https://github.com/phuocding/pythonista-for-beginner"
-```
-
-2. Fetch upstream changes in local machine
-```
-$ git fetch upstream
-```
-
-3. Switch to master branch
-```
-$ git checkout master
-```
-
-4. Merge changes in local machine
-```
-$ git merge upstream/master
-```
-
-5. Push changes to your forked GitHub repository
-```
-$ git push -f origin master
-```
+8. Optional : Synchronize forked repository with Upstream repository
+[Read here](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
 
 ## Structure of Your Code:
 The *root* directory of your developed application must contain
