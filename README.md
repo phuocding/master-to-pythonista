@@ -14,17 +14,24 @@ So run the horses, pull up the socks, grab a cup of coffee and start to code to 
 <br><br>
 This repository contains all the applications, tools and anything else which is productive developed by Python.
 
+## Purpose
+
+Purpose of this repository is to promote development of productive applications and utilities which seem so common yet might not be into use. Trigger your brain, take the challenge of developing something in less than #pythonista-for-beginner.
+
 ## Table of Contents:
+
 - [What is Pythonista](#what-is-pythonista)
-- [Table of Contents](#table-of-contents)
 - [Purpose](#purpose)
+- [Table of Contents](#table-of-contents)
 - [Contributing](#contributing)
 - [Adding your code](#adding-your-code)
 - [Structure of your code](#structure-of-your-code)
 
 
-## Purpose
-Purpose of this repository is to promote development of productive applications and utilities which seem so common yet might not be into use. Trigger your brain, take the challenge of developing something in less than #pythonista-for-beginner. 
+## Contributing
+
+We encourage you to contribute to this Repository! Please check out the
+[Contributing to Pythonista for Beginner guide](CONTRIBUTING.md) for guidelines about how to proceed.
 
 ## Adding Your Code:
 Here are the steps:
