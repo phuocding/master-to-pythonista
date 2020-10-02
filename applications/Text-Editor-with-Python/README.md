@@ -1,6 +1,5 @@
-# Text Editor with Python
-
-
+## New GUI Application!
+### Text Editor with Python and tkinter
 
 ### How to run ?
 1. Clone the repository with `git clone https://github.com/phuocding/master-to-pythonista.git`
@@ -9,7 +8,7 @@
 
 ### Requirements 
 - Python
-- tkinter ( Builtin module )
+- tkinter ('Builtin module')
 
 
 
