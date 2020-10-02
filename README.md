@@ -11,27 +11,20 @@ Often in places close and far, we come across those little things which can real
 <br><br>
 It can be an android code snippet, Javascript function, a python Library usage and anything else you can think of.
 So run the horses, pull up the socks, grab a cup of coffee and start to code to develop something productive in pythonista-for-beginner.
+<br><br>
+This repository contains all the applications, tools and anything else which is productive developed by Python.
 
-### Contents:
-- [About](#about)
-- [What it is](#heres-what-it-is)
+## Table of Contents:
+- [What is Pythonista](#what-is-pythonista)
+- [Table of Contents](#table-of-contents)
 - [Purpose](#purpose)
 - [Contributing](#contributing)
 - [Adding your code](#adding-your-code)
 - [Structure of your code](#structure-of-your-code)
 
 
-### About
-This repository contains all the applications, tools and anything else which is productive developed by Python.
-
-### Here's What It Is:
- 
-
-
 ## Purpose
 Purpose of this repository is to promote development of productive applications and utilities which seem so common yet might not be into use. Trigger your brain, take the challenge of developing something in less than #pythonista-for-beginner. 
-
-## Contributing
 
 ## Adding Your Code:
 Here are the steps:
