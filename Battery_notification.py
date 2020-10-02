@@ -1,3 +1,7 @@
+# use terminal to install
+"""pip install psutil
+   pip install pyttsx3
+   pip install win10toast"""
 import psutil
 import time
 import pyttsx3
