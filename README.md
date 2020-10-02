@@ -1,93 +1,77 @@
-# `Pythonista for beginner`
-A list of awesome beginners-friendly projects.
+<img src="./assets/banner.gif">
 
-### Contents:
-- [About](#about)
-- [What it is](#heres-what-it-is)
-- [Purpose](#purpose)
-- [Contributing](#contributing)
-- [Adding your code](#adding-your-code)
-- [Structure of your code](#structure-of-your-code)
+***A repository for contributing a python program in any of the topic you know.***
 
+## How to Contribute: 👨🏻‍💻
 
-### About
-This repository contains all the applications, tools and anything else which is productive developed by Python.
+1. Fork the project.
+2. Make any changes in your forked repo
+3. On this repo, click `Pull Requests` and raise a `Pull Request` selecting your fork on the right drop down
 
-### Here's What It Is:
-Does #pythonista-for-beginner get too recursive for you? Are you fed up of #coding just for a #streak? Do you want to change the #trend?
-Often in places close and far, we come across those little things which can really be coded to easen the process.
-#pythonista-for-beginner is a #challenge to get your neurons together to develop anything and everything productive using Python. It can be an android code snippet, Javascript function, a python Library usage and anything else you can think of. So run the horses, pull up the socks, grab a cup of coffee and start to code to develop something productive in #pythonista-for-beginner.  I have created a Github repository https://github.com/phuocding/pythonista-for-beginner. Navigate and contribute to #OpenSource in the process. 
+Questions can be asked by raising an `Issue`.
 
+## How to clone repo and make changes locally: ✂📋
 
-## Purpose
-Purpose of this repository is to promote development of productive applications and utilities which seem so common yet might not be into use. Trigger your brain, take the challenge of developing something in less than #pythonista-for-beginner. 
-
-## Contributing
-
-## Adding Your Code:
-Here are the steps:
-1: Develop something in the programming language of your choice for any platform in less than #100LinesOfCode
-2: Fork this repository
-3: Clone this repository 
 ```
-$ git clone "https://www.github.com/{Username}/pythonista-for-beginner.git"
-```
-where username is your GitHub account username.
-
-4. Create a branch where you can do your local work.
-Never work on **master** branch as we do not allow master commits except by admins.
-```
-$ git branch {branchname}
-$ git checkout branchname
+  click on the clone button (green in colour). This gives you a copy of the project. Its now yours to play around with
 ```
 
-5. Do your work and stage your changes.
+- Using git on your local machine. Do this to download the forked copy of this repo to your computer
+
 ```
-$ git add <filename>
+  git clone https://github.com/yourGitHubUsername/master-to-pythonista.git
 ```
 
-6. Commit you changes with a commit message containing your name, file(s) worked upon, changes added.
+- switch to the cloned folder. This can be done with Git Bash or the integrated terminal in the VSCode editor
+
 ```
-$ git commit -m "Name| files| Changes"
+  cd master-to-pythonista
 ```
 
-7. Push changes to your forked repository
+- Make a new branch. Your name would make a good branch because it's unique
+
 ```
-$ git push -u origin branchname
+  git checkout -b <name of new branch>
 ```
 
-##### Synchronize forked repository with Upstream repository
+- Open the exercises/ applications folder inside that create a folder of **your name/your project name**. Add all the files of the program inside the folder of **your name/your project name**.
+> `Note: please add README for yout contribution inside your folder`
 
-1. Create upstream as our repository
-```
-$ git remote add upstream "https://github.com/phuocding/pythonista-for-beginner"
-```
+- Stage your changes
+  - For example, if you have added 1 file
+    ``` 
+    git add "./exercies/*Your Folder Name*/Hello.py" 
+    ```
+  - If there are many files, to add all the files use 
+    ``` 
+    git add "./exercises/*Your Folder Name*/."
+    ```
 
-2. Fetch upstream changes in local machine
-```
-$ git fetch upstream
-```
+- Commit the changes
 
-3. Switch to master branch
 ```
-$ git checkout master
-```
-
-4. Merge changes in local machine
-```
-$ git merge upstream/master
+  git commit -m "Initial commit"
 ```
 
-5. Push changes to your forked GitHub repository
+- Check the status of your repository
+
 ```
-$ git push -f origin master
+  git status
 ```
 
-## Structure of Your Code:
-The *root* directory of your developed application must contain
-* A README.md describing your project, idea and Implementation
-* Source code for your app
-* Link to working app (In case the app in an extension, add-ons, etc.)
-* If Possible, Deploy the code onto a hosting platform.
+- Pushing your repository to github
 
-Note: Please Add Author's name in Readme.md of application. 
+```
+  git push origin <name of your branch>
+```
+
+- Pulling your request. Click on the Pull requests tab on the forked github repository.
+  - ***Note : A pull request allows your changes to be merged with the original project.***
+
+```
+  Click on Pull Request
+```
+
+- Wait for your changes to be merged
+
+- Voila! You successfully made a contribution. 😉
