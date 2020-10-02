@@ -1,5 +1,16 @@
-# `Pythonista for beginner`
-A list of awesome beginners-friendly projects.
+<div align="center">
+  <br>
+  <h1>Pythonista for beginner :snake:</h1>
+  <strong>A list of awesome beginners-friendly projects.</strong>
+</div>
+
+## What is Pythonista?
+
+Often in places close and far, we come across those little things which can really be coded to easen the process.
+**Pythonista-for-beginner** is a **challenge** to get your neurons together to develop anything and everything productive using Python.
+<br><br>
+It can be an android code snippet, Javascript function, a python Library usage and anything else you can think of.
+So run the horses, pull up the socks, grab a cup of coffee and start to code to develop something productive in pythonista-for-beginner.
 
 ### Contents:
 - [About](#about)
@@ -14,9 +25,7 @@ A list of awesome beginners-friendly projects.
 This repository contains all the applications, tools and anything else which is productive developed by Python.
 
 ### Here's What It Is:
-Does #pythonista-for-beginner get too recursive for you? Are you fed up of #coding just for a #streak? Do you want to change the #trend?
-Often in places close and far, we come across those little things which can really be coded to easen the process.
-#pythonista-for-beginner is a #challenge to get your neurons together to develop anything and everything productive using Python. It can be an android code snippet, Javascript function, a python Library usage and anything else you can think of. So run the horses, pull up the socks, grab a cup of coffee and start to code to develop something productive in #pythonista-for-beginner.  I have created a Github repository https://github.com/phuocding/pythonista-for-beginner. Navigate and contribute to #OpenSource in the process. 
+ 
 
 
 ## Purpose
