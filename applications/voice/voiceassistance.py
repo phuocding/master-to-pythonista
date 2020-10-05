@@ -3,7 +3,6 @@ import datetime
 import speech_recognition as sr
 import wikipedia
 import time
-import webbrowser
 import os
 from selenium import webdriver
 
