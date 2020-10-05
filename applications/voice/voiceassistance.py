@@ -43,15 +43,15 @@ def wishme():
 if __name__ == "__main__":
     wishme()
     while True:
-       query=takeCommand().lower()  
-       if 'wikipedia' in query:
-           speak("searching wiipedia")
-           query=query.replace('wikipedia',"")
-           results=wikipedia.summary(query, sentences=2)
-           print(results)
-           speak("according to wikipedia")
-           speak(results)
-       elif 'open youtube' in query:
+        query = takeCommand().lower()
+        if 'wikipedia' in query:
+            speak("searching wikipedia")
+            query = query.replace('wikipedia', "")
+            results = wikipedia.summary(query, sentences=2)
+            print(results)
+            speak("according to wikipedia")
+            speak(results)
+        elif 'open youtube' in query:
             speak('opening')
             browser=webdriver.Chrome()
             browser.get('https://www.youtube.com/')
