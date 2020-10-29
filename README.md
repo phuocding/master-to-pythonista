@@ -9,12 +9,6 @@
 
 ***A repository for contributing a python program in any of the topic you know.***
 
-## How to Contribute: 👨🏻‍💻
-
-1. Fork the project.
-2. Make any changes in your forked repo
-3. On this repo, click `Pull Requests` and raise a `Pull Request` selecting your fork on the right drop down
-
 Questions can be asked by raising an `Issue`.
 
 ## How to clone repo and make changes locally: ✂📋
