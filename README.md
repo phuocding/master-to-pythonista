@@ -1,5 +1,5 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/phuocding/master-to-pythonista/issues)
-[![HitCount](http://hits.dwyl.com/phuocding/master-to-pythonista.svg)](http://hits.dwyl.com/phuocding/master-to-pythonista)
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fphuocding%2Fmaster-to-pythonista)
 [![GitHub issues](https://img.shields.io/github/issues/phuocding/master-to-pythonista.svg)](https://github.com/phuocding/master-to-pythonista/issues)
 [![GitHub forks](https://img.shields.io/github/forks/phuocding/master-to-pythonista.svg)](https://github.com/phuocding/master-to-pythonista/network)
 [![GitHub stars](https://img.shields.io/github/stars/phuocding/master-to-pythonista.svg)](https://github.com/phuocding/master-to-pythonista/stargazers)
